@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "commonjs",
+    "lib": ["es2021", "dom"],
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@server/*": ["src/server/*"],
+      "@client/*": ["src/client/*"],
+      "@shared/*": ["src/shared/*"],
+      "@redux/*": ["src/redux/*"],
+      "@lib/*": ["src/lib/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
